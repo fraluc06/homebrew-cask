@@ -10,11 +10,6 @@ cask "openchamber" do
   desc "Rich interface for OpenCode"
   homepage "https://github.com/openchamber/openchamber"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   depends_on macos: ">= :monterey"
 
   app "OpenChamber.app"
