@@ -18,7 +18,7 @@ cask "colorsnapper" do
     end
   end
 
-  depends_on :macos
+  depends_on macos: ">= :sonoma"
 
   app "ColorSnapper2.app"
 
@@ -31,8 +31,4 @@ cask "colorsnapper" do
     "~/Library/Cookies/com.koolesache.ColorSnapper2.binarycookies",
     "~/Library/Preferences/com.koolesache.ColorSnapper2.plist",
   ]
-
-  caveats do
-    requires_rosetta
-  end
 end
