@@ -1,6 +1,6 @@
 cask "rockxy" do
-  version "0.16.0,25"
-  sha256 "c5841339407e1ff7ccba712e94045b5fa6dace754f3067cb7e2448a23976ea01"
+  version "0.17.0,26"
+  sha256 "8f52df359ff4c508b80f10ad8f3fd47f4f017f404fa15dc6e803f534f38dbd78"
 
   url "https://github.com/RockxyApp/Rockxy/releases/download/v#{version.csv.first}/Rockxy-#{version.tr(",", "-")}.dmg",
       verified: "github.com/RockxyApp/Rockxy/"
